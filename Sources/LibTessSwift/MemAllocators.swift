@@ -6,7 +6,7 @@
 //
 //
 
-#if os(macOS) || os(iOS) || os(macOS) || os(tvOS) || os(watchOS)
+#if os(macOS) || os(iOS) || os(macOS) || os(tvOS) || os(watchOS) || os(visionOS)
 import Darwin.C
 #elseif os(Linux)
 import Glibc
